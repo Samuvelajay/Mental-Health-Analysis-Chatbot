@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mental Health Chatbot</title>
+</head>
+<body>
+    <h2>Welcome, {{ name }}!</h2>
+    <p>Phone: {{ phone }}</p>
+
+    <form action="/chatbot/{{ name }}/{{ phone }}" method="POST">
+        <label for="message">Enter your message:</label><br>
+        <textarea name="message" rows="4" cols="50" required></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if message %}
+        <h3>Your Message: {{ message }}</h3>
+        <h3>Prediction: {{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>
