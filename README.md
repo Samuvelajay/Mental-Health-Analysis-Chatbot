@@ -7,7 +7,7 @@ Provide personalized insights based on text analysis.
 Maintain a record of conversations and predictions for analysis and future reference.
 
 Technologies Used:
-Machine Learning: Uses a trained model (e.g., Logistic Regression, SVM) to classify text data into mental health categories.
+Machine Learning: Uses a trained model (e.g., Logistic Regression) to classify text data into mental health categories.
 NLP Techniques: Includes text preprocessing, sentiment analysis, and classification.
 
 Flask: Backend framework to create a web application for user interaction.
